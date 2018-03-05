@@ -1,0 +1,12 @@
+C:\Users\Adrien\source\repos\TwoWindows\TwoWindows\bin\Debug\TwoWindows.exe.config
+C:\Users\Adrien\source\repos\TwoWindows\TwoWindows\bin\Debug\TwoWindows.exe
+C:\Users\Adrien\source\repos\TwoWindows\TwoWindows\bin\Debug\TwoWindows.pdb
+C:\Users\Adrien\source\repos\TwoWindows\TwoWindows\bin\Debug\MySql.Data.dll
+C:\Users\Adrien\source\repos\TwoWindows\TwoWindows\bin\Debug\MySql.Data.xml
+C:\Users\Adrien\source\repos\TwoWindows\TwoWindows\obj\Debug\TwoWindows.csprojResolveAssemblyReference.cache
+C:\Users\Adrien\source\repos\TwoWindows\TwoWindows\obj\Debug\TwoWindows.Form1.resources
+C:\Users\Adrien\source\repos\TwoWindows\TwoWindows\obj\Debug\TwoWindows.Properties.Resources.resources
+C:\Users\Adrien\source\repos\TwoWindows\TwoWindows\obj\Debug\TwoWindows.csproj.GenerateResource.Cache
+C:\Users\Adrien\source\repos\TwoWindows\TwoWindows\obj\Debug\TwoWindows.csproj.CoreCompileInputs.cache
+C:\Users\Adrien\source\repos\TwoWindows\TwoWindows\obj\Debug\TwoWindows.exe
+C:\Users\Adrien\source\repos\TwoWindows\TwoWindows\obj\Debug\TwoWindows.pdb

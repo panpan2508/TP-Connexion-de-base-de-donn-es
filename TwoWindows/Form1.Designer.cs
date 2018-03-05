@@ -39,6 +39,13 @@
             this.btnConnecter = new System.Windows.Forms.Button();
             this.txtVoir = new System.Windows.Forms.RichTextBox();
             this.btnVoir = new System.Windows.Forms.Button();
+            this.nomlbl = new System.Windows.Forms.Label();
+            this.prenomlbl = new System.Windows.Forms.Label();
+            this.naissancelbl = new System.Windows.Forms.Label();
+            this.nomtxt = new System.Windows.Forms.TextBox();
+            this.prenomtxt = new System.Windows.Forms.TextBox();
+            this.naissancetxt = new System.Windows.Forms.DateTimePicker();
+            this.btnajouter = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -121,7 +128,7 @@
             // 
             // txtVoir
             // 
-            this.txtVoir.Location = new System.Drawing.Point(46, 117);
+            this.txtVoir.Location = new System.Drawing.Point(46, 162);
             this.txtVoir.Name = "txtVoir";
             this.txtVoir.Size = new System.Drawing.Size(666, 206);
             this.txtVoir.TabIndex = 9;
@@ -138,11 +145,80 @@
             this.btnVoir.UseVisualStyleBackColor = true;
             this.btnVoir.Click += new System.EventHandler(this.bVoir_Click_1);
             // 
+            // nomlbl
+            // 
+            this.nomlbl.AutoSize = true;
+            this.nomlbl.Location = new System.Drawing.Point(46, 83);
+            this.nomlbl.Name = "nomlbl";
+            this.nomlbl.Size = new System.Drawing.Size(37, 17);
+            this.nomlbl.TabIndex = 11;
+            this.nomlbl.Text = "Nom";
+            // 
+            // prenomlbl
+            // 
+            this.prenomlbl.AutoSize = true;
+            this.prenomlbl.Location = new System.Drawing.Point(200, 82);
+            this.prenomlbl.Name = "prenomlbl";
+            this.prenomlbl.Size = new System.Drawing.Size(57, 17);
+            this.prenomlbl.TabIndex = 12;
+            this.prenomlbl.Text = "Prénom";
+            // 
+            // naissancelbl
+            // 
+            this.naissancelbl.AutoSize = true;
+            this.naissancelbl.Location = new System.Drawing.Point(419, 83);
+            this.naissancelbl.Name = "naissancelbl";
+            this.naissancelbl.Size = new System.Drawing.Size(126, 17);
+            this.naissancelbl.TabIndex = 13;
+            this.naissancelbl.Text = "Date de naissance";
+            // 
+            // nomtxt
+            // 
+            this.nomtxt.Enabled = false;
+            this.nomtxt.Location = new System.Drawing.Point(49, 104);
+            this.nomtxt.Name = "nomtxt";
+            this.nomtxt.Size = new System.Drawing.Size(100, 22);
+            this.nomtxt.TabIndex = 14;
+            // 
+            // prenomtxt
+            // 
+            this.prenomtxt.Enabled = false;
+            this.prenomtxt.Location = new System.Drawing.Point(203, 103);
+            this.prenomtxt.Name = "prenomtxt";
+            this.prenomtxt.Size = new System.Drawing.Size(100, 22);
+            this.prenomtxt.TabIndex = 15;
+            // 
+            // naissancetxt
+            // 
+            this.naissancetxt.Enabled = false;
+            this.naissancetxt.Location = new System.Drawing.Point(422, 103);
+            this.naissancetxt.Name = "naissancetxt";
+            this.naissancetxt.Size = new System.Drawing.Size(165, 22);
+            this.naissancetxt.TabIndex = 16;
+            // 
+            // btnajouter
+            // 
+            this.btnajouter.Enabled = false;
+            this.btnajouter.Location = new System.Drawing.Point(819, 103);
+            this.btnajouter.Name = "btnajouter";
+            this.btnajouter.Size = new System.Drawing.Size(114, 31);
+            this.btnajouter.TabIndex = 17;
+            this.btnajouter.Text = "Ajouter";
+            this.btnajouter.UseVisualStyleBackColor = true;
+            this.btnajouter.Click += new System.EventHandler(this.btnajouter_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(958, 381);
+            this.Controls.Add(this.btnajouter);
+            this.Controls.Add(this.naissancetxt);
+            this.Controls.Add(this.prenomtxt);
+            this.Controls.Add(this.nomtxt);
+            this.Controls.Add(this.naissancelbl);
+            this.Controls.Add(this.prenomlbl);
+            this.Controls.Add(this.nomlbl);
             this.Controls.Add(this.btnVoir);
             this.Controls.Add(this.txtVoir);
             this.Controls.Add(this.btnConnecter);
@@ -174,6 +250,13 @@
         private System.Windows.Forms.Button btnConnecter;
         private System.Windows.Forms.RichTextBox txtVoir;
         private System.Windows.Forms.Button btnVoir;
+        private System.Windows.Forms.Label nomlbl;
+        private System.Windows.Forms.Label prenomlbl;
+        private System.Windows.Forms.Label naissancelbl;
+        private System.Windows.Forms.TextBox nomtxt;
+        private System.Windows.Forms.TextBox prenomtxt;
+        private System.Windows.Forms.DateTimePicker naissancetxt;
+        private System.Windows.Forms.Button btnajouter;
     }
 }
 
